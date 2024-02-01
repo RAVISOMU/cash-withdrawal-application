@@ -1,0 +1,153 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.bg-card-container {
+  background-color: #150b3e;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  padding: 36px;
+  border-radius: 28px;
+}
+
+.bg-card {
+  width: 100%;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  padding-top: 36px;
+}
+
+.name-logo {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-right: 24px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  font-size: 32px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 36px;
+  margin-bottom: 0px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  color: #d4d2db;
+  font-size: 52px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+p {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 34px;
+  padding: 0px;
+}
+
+.withdraw-container {
+  width: 100%;
+  padding-left: 36px;
+}
+
+.description {
+  font-size: 26px;
+}
+
+.withdraw-heading {
+  font-family: 'Roboto';
+  color: #c4c4c4;
+  font-size: 38px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-left: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-card-container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .list-container {
+    padding-left: 10px;
+  }
+
+  .name-container {
+    padding: 10px;
+  }
+
+  .name-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .balance-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .amount {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .withdraw-container {
+    padding-left: 10px;
+  }
+
+  .withdraw-heading {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bg-card-container {
+    padding: 20px;
+  }
+}
